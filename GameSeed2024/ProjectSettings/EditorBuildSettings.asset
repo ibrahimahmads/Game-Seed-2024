@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CutsceneProlog.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: ba55ac29eaaeaef42acb6042f0c97008
+  - enabled: 1
+    path: Assets/Scenes/CharacterSelection.unity
+    guid: 471c942efd85a194a95c55b7c6553c10
+  - enabled: 1
+    path: Assets/Scenes/Battle.unity
+    guid: 12ec725c0fe01d641bf98536639f54a0
+  - enabled: 1
+    path: Assets/Scenes/CutsceneEnding.unity
+    guid: 31137a22a452a434e94c6b41ac0830a3
   m_configObjects: {}
