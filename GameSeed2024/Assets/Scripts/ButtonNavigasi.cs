@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ButtonNavigasi : MonoBehaviour
 {
@@ -8,7 +9,6 @@ public class ButtonNavigasi : MonoBehaviour
     public GameObject tombolPrev;
     public GameObject listKarakter;
     public GameObject listItem;
-    public GameObject chooseFaction;
     public GameObject namaKarakter;
     public GameObject karakterTampil;
     public Animator animatorKarakter; // Animator untuk panel karakter
@@ -36,7 +36,6 @@ public class ButtonNavigasi : MonoBehaviour
         if (isCharacterSelected && isInCharacterSelection) // fungsi Ubah state ke pemilihan item
         {
             listItem.SetActive(true);
-            chooseFaction.SetActive(false);
             animatorKarakter.Play("List Character Down");
             animatorItem.Play("List Item Left");
 
@@ -44,7 +43,25 @@ public class ButtonNavigasi : MonoBehaviour
             isInCharacterSelection = false; 
         }else
         {
-            // Fungsi Masuk ke Battle
+            string charaName = PlayerPrefs.GetString("SelectedCharacterName");
+            Debug.Log("Nama Karakter : "+charaName);
+            if(charaName == "Cilla")
+            {
+                SceneManager.LoadScene("Battle");
+            }
+            else if(charaName == "Carica")
+            {
+                SceneManager.LoadScene("Battle");
+            }
+            else if(charaName == "Myrta")
+            {
+                SceneManager.LoadScene("Battle");
+            }
+            else if(charaName == "Seleni")
+            {
+                SceneManager.LoadScene("Battle");
+            }
+            
         }
     }
 
@@ -60,12 +77,12 @@ public class ButtonNavigasi : MonoBehaviour
         {
             // Kembali ke menu utama
             Debug.Log("Kembali ke menu utama");
+            SceneManager.LoadScene("MainMenu");
         }
         else
         {
             // Fungsi ubah state ke pemilihan karakter
             listKarakter.SetActive(true);
-            chooseFaction.SetActive(true);
             animatorKarakter.Play("List Character Up");
             animatorItem.Play("List Item Right"); 
             StartCoroutine(SembunyikanItemPanel());
