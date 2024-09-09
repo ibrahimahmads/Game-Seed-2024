@@ -426,8 +426,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: {fileID: 21300000, guid: c8b1a5484bdea7e499f3876b5c35e69a, type: 3}
   characterImage: {fileID: 21300000, guid: 85547e61fffa92443be8ce25e3f914b4, type: 3}
-  story: story mengenai Seleni
-  skills: Skill dari Seleni
+  story: Representatif faksi Dragon Fruit di pertandingan Seedstival, Seleni jarang
+    tersenyum karena tidak ingin terlihat ramah dan bom buatannya adalah yang paling
+    destruktif di faksinya.
+  skills: Lempar bom buah naga ke lawan (ledakan pink).
 --- !u!222 &168565743
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -817,7 +819,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.47747, y: 103}
+  m_AnchoredPosition: {x: -0.47747, y: 109}
   m_SizeDelta: {x: 349.81, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &645304418
@@ -867,8 +869,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1521,8 +1523,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1557,7 +1559,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -1.0875777, y: -1.4118099, z: -2.1910324, w: -0.8259448}
+  m_margin: {x: -1.0875777, y: -15.958622, z: -2.1910324, w: -0.8259448}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2570,8 +2572,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: {fileID: 21300000, guid: 11e05f26212050c45a9931e18d369bc8, type: 3}
   characterImage: {fileID: 21300000, guid: 538a71b6fb3865e4bb12a2a7af277b71, type: 3}
-  story: story mengenai Carica
-  skills: Skill dari Carica
+  story: "Representatif faksi Papaya di pertandingan Seedstival, Carica adalah gadis
+    lembut yang manis, berbeda dengan kemampuan bertarungnya yang \u201Cpahit\u201D."
+  skills: Summon air getah ke lawan.
 --- !u!222 &1198660575
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2783,8 +2786,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: {fileID: 21300000, guid: d1bc73a8686fdb84297a2c1178a630f6, type: 3}
   characterImage: {fileID: 21300000, guid: 2055df430a895914b9afc82dedbc339d, type: 3}
-  story: story mengenai Cilla
-  skills: Skill dari Cilla
+  story: Representatif faksi Watermelon di pertandingan Seedstival, Cilla adalah
+    gadis ceria yang sangat terbuka dengan perasaannya dan sihir lilitannya adalah
+    yang paling lincah di faksinya.
+  skills: Summon lilitan cabang hijau ke lawan.
 --- !u!222 &1319003676
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3533,8 +3538,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: {fileID: 21300000, guid: acc7165d4d012314aa03f0ea2c549fdf, type: 3}
   characterImage: {fileID: 21300000, guid: 8fa06021075fc064db1473d2d04816cd, type: 3}
-  story: story mengenai Myrta
-  skills: Skill dari Myrta
+  story: Representatif faksi Guava di pertandingan Seedstival, Myrta si gadis pendiam
+    dengan ekspresi yang selalu terlihat kaku adalah pengguna tombak terbaik di faksinya.
+  skills: Lempar tombak ke lawan.
 --- !u!1 &1796008802
 GameObject:
   m_ObjectHideFlags: 0
