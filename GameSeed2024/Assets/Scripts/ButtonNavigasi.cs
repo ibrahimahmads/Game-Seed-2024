@@ -43,25 +43,9 @@ public class ButtonNavigasi : MonoBehaviour
             isInCharacterSelection = false; 
         }else
         {
-            string charaName = PlayerPrefs.GetString("SelectedCharacterName");
+            string charaName = PlayerPrefs.GetString("SelectedCharacterName");         
             Debug.Log("Nama Karakter : "+charaName);
-            if(charaName == "Cilla")
-            {
-                SceneManager.LoadScene("Battle");
-            }
-            else if(charaName == "Carica")
-            {
-                SceneManager.LoadScene("Battle");
-            }
-            else if(charaName == "Myrta")
-            {
-                SceneManager.LoadScene("Battle");
-            }
-            else if(charaName == "Seleni")
-            {
-                SceneManager.LoadScene("Battle");
-            }
-            
+            SceneManager.LoadScene("Battle"+charaName+"1");        
         }
     }
 

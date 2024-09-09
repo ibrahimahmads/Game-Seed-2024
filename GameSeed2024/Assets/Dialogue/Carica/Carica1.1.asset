@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b901965128b7b64b821e30850950f74, type: 3}
+  m_Name: Carica1.1
+  m_EditorClassIdentifier: 
+  SubjectName: Player
+  SubjectFace: {fileID: 21300000, guid: 938b6219aa9aa8642936bedea4635328, type: 3}
+  SubjectFace2: {fileID: 21300000, guid: 538a71b6fb3865e4bb12a2a7af277b71, type: 3}
