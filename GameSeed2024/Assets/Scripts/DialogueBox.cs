@@ -19,6 +19,8 @@ public class DialogueBox : MonoBehaviour
     public float TextSpeed;
     public int DialogueIndex;
     public bool canCont;
+    //private bool dialogNanas = false;
+    public GameObject dialogAcara;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +37,13 @@ public class DialogueBox : MonoBehaviour
         if(Input.GetButtonDown("Fire1") && canCont)
         {
             DialogueIndex++;
-            if(DialogueIndex == DialogueSegments.Length)
+            if(DialogueIndex == DialogueSegments.Length && dialogAcara != null)
+            {
+                gameObject.SetActive(false);
+                
+                dialogAcara.SetActive(true);
+                return;
+            }else if(DialogueIndex == DialogueSegments.Length && dialogAcara == null)
             {
                 gameObject.SetActive(false);
                 Time.timeScale = 1;
