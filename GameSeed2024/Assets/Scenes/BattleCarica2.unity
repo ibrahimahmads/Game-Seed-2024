@@ -612,14 +612,9 @@ MonoBehaviour:
   - Speaker: {fileID: 11400000, guid: ef0d33c74c8f91e4e9f1ce81bc4722a1, type: 2}
     Dialogue: Tidak! Ini adalah pertandingan bersahabat, dan kalian telah bertarung
       dan hampir membahayakan seluruh penduduk sekitar yang telah menonton.
-  - Speaker: {fileID: 11400000, guid: 878b50bb6e4c998469f7082f0c78661e, type: 2}
-    Dialogue: Aku hanya mengikuti gaya bertarung lawanku wasit, jika lawanku tidak
-      memancingku untuk bertindak begitu, hal ini tidak akan terjadi.
   - Speaker: {fileID: 11400000, guid: 9f257b587e7ec4f48807e1ebd7ac3b84, type: 2}
     Dialogue: Kenapa sekarang kau menyalahkan orang lain padahal kau sendiri juga
       begitu.
-  - Speaker: {fileID: 11400000, guid: da7e439efa84c9a4d8639b9024b4a5c1, type: 2}
-    Dialogue: 'Cukup! Sebenarnya kenapa kalian saling bersikap demikian?! '
   - Speaker: {fileID: 11400000, guid: da7e439efa84c9a4d8639b9024b4a5c1, type: 2}
     Dialogue: 'Cukup! Sebenarnya kenapa kalian saling bersikap demikian?! '
   - Speaker: {fileID: 11400000, guid: 862878ad1a94cf84bb5c6cfa6f310c4d, type: 2}
@@ -647,9 +642,10 @@ MonoBehaviour:
   - Speaker: {fileID: 11400000, guid: d4bde72bd943432498b7f3ed60f755f3, type: 2}
     Dialogue: Kalau begitu panggil informan kalian itu kesini sekarang juga, karena
       aku juga akan memanggil informanku kesini agar kalian tidak bisa berkutik.
-  - Speaker: {fileID: 11400000, guid: d4bde72bd943432498b7f3ed60f755f3, type: 2}
-    Dialogue: Kalau begitu panggil informan kalian itu kesini sekarang juga, karena
-      aku juga akan memanggil informanku kesini agar kalian tidak bisa berkutik.
+  - Speaker: {fileID: 11400000, guid: 02a9b183f9d6b864285010931c49a626, type: 2}
+    Dialogue: (Ke-empat representatif kemudian serentak memanggil nama Nanas agar
+      maju kedepan, ke-empat gadis itu terkejut begitu mereka sadar mereka menyebut
+      nama yang sama.)
   SpeakerFace: {fileID: 1850699599}
   SpeakerFace2: {fileID: 2026311943}
   SpeakerFace3: {fileID: 982732329}
