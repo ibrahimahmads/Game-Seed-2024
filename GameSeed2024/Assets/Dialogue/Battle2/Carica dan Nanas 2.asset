@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b901965128b7b64b821e30850950f74, type: 3}
-  m_Name: Cilla 2
+  m_Name: Carica dan Nanas 2
   m_EditorClassIdentifier: 
-  SubjectName: Player
+  SubjectName: Nanas
   SubjectFace: {fileID: 21300000, guid: 7e29f6fb04bb55c4f9749c4437018ae2, type: 3}
-  SubjectFace2: {fileID: 0}
+  SubjectFace2: {fileID: 21300000, guid: 6723d512a152d1c44aeb98cdf0a6b50d, type: 3}

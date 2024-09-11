@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: dialog1.1
   m_EditorClassIdentifier: 
   SubjectName: Player
-  SubjectFace: {fileID: 21300000, guid: 938b6219aa9aa8642936bedea4635328, type: 3}
-  SubjectFace2: {fileID: 21300000, guid: 8fa06021075fc064db1473d2d04816cd, type: 3}
+  SubjectFace: {fileID: 21300000, guid: 6723d512a152d1c44aeb98cdf0a6b50d, type: 3}
+  SubjectFace2: {fileID: 21300000, guid: 8ee11685c4709a048a9baf0adefb5d92, type: 3}

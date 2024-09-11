@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: nanas
   m_EditorClassIdentifier: 
   SubjectName: ?????
-  SubjectFace: {fileID: 21300000, guid: 938b6219aa9aa8642936bedea4635328, type: 3}
+  SubjectFace: {fileID: 21300000, guid: 6723d512a152d1c44aeb98cdf0a6b50d, type: 3}
   SubjectFace2: {fileID: 0}

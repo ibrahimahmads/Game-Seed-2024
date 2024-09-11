@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Cilla 1
   m_EditorClassIdentifier: 
   SubjectName: Nanas
-  SubjectFace: {fileID: 21300000, guid: 938b6219aa9aa8642936bedea4635328, type: 3}
-  SubjectFace2: {fileID: 21300000, guid: 2055df430a895914b9afc82dedbc339d, type: 3}
+  SubjectFace: {fileID: 21300000, guid: 6723d512a152d1c44aeb98cdf0a6b50d, type: 3}
+  SubjectFace2: {fileID: 21300000, guid: 7e29f6fb04bb55c4f9749c4437018ae2, type: 3}
