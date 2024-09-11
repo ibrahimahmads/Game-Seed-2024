@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Seleni 2
   m_EditorClassIdentifier: 
   SubjectName: Player
-  SubjectFace: {fileID: 21300000, guid: 85547e61fffa92443be8ce25e3f914b4, type: 3}
+  SubjectFace: {fileID: 21300000, guid: 63596a94e701dac42af088c4dc064252, type: 3}
   SubjectFace2: {fileID: 0}

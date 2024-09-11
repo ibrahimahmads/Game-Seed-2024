@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Carica1.3
   m_EditorClassIdentifier: 
   SubjectName: Player
-  SubjectFace: {fileID: 21300000, guid: 538a71b6fb3865e4bb12a2a7af277b71, type: 3}
+  SubjectFace: {fileID: 21300000, guid: 307ffb1bb9b7fd2408c78da5a43d2429, type: 3}
   SubjectFace2: {fileID: 0}

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b901965128b7b64b821e30850950f74, type: 3}
-  m_Name: Cilla 2
+  m_Name: Seleni
   m_EditorClassIdentifier: 
-  SubjectName: Player
-  SubjectFace: {fileID: 21300000, guid: 7e29f6fb04bb55c4f9749c4437018ae2, type: 3}
+  SubjectName: Seleni
+  SubjectFace: {fileID: 21300000, guid: 63596a94e701dac42af088c4dc064252, type: 3}
   SubjectFace2: {fileID: 0}
