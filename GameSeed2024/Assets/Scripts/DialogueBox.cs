@@ -76,6 +76,12 @@ public class DialogueBox : MonoBehaviour
             SpeakerFace3.color = Color.white;
             SpeakerFace.gameObject.SetActive(false);
         }
+        else if(Speaker.SubjectFace == null && Speaker.SubjectFace2 == null)
+        {
+            SpeakerFace.gameObject.SetActive(false);
+            SpeakerFace2.gameObject.SetActive(false);
+            SpeakerFace3.gameObject.SetActive(false);
+        }
         SpeakerName.SetText(Speaker.SubjectName);
 
     }
