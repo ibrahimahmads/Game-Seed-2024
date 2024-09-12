@@ -15,16 +15,16 @@ EditorBuildSettings:
     path: Assets/Scenes/CharacterSelection.unity
     guid: 471c942efd85a194a95c55b7c6553c10
   - enabled: 1
-    path: Assets/Scenes/BattleMyrta1.unity
+    path: Assets/Scenes/DialogMyrta.unity
     guid: 12ec725c0fe01d641bf98536639f54a0
   - enabled: 1
-    path: Assets/Scenes/BattleCarica1.unity
+    path: Assets/Scenes/DialogCarica.unity
     guid: 88e33973e1912fa489717bec10f2fcbb
   - enabled: 1
-    path: Assets/Scenes/BattleCilla1.unity
+    path: Assets/Scenes/DialogCIlla.unity
     guid: 37ae582545d162e41abb16571da4fc7c
   - enabled: 1
-    path: Assets/Scenes/BattleSeleni1.unity
+    path: Assets/Scenes/DialogSeleni.unity
     guid: 0ff804b61b32b3a4ca30e9ca6f3121ed
   - enabled: 1
     path: Assets/Scenes/CutsceneEnding.unity
