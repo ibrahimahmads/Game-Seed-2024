@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: ba55ac29eaaeaef42acb6042f0c97008
   - enabled: 1
+    path: Assets/Scenes/BattleSceneCilla.unity
+    guid: dc0abbed2113ad6428790defe00741bd
+  - enabled: 1
     path: Assets/Scenes/CharacterSelection.unity
     guid: 471c942efd85a194a95c55b7c6553c10
   - enabled: 1
