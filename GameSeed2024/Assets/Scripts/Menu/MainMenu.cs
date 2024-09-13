@@ -12,6 +12,7 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
+    
     public void LoadSceneByName(string sceneName)
     {
         // Load the scene by the name passed in as a parameter
